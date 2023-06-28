@@ -35,8 +35,8 @@ int match(string s, string t) {
 }
 
 int main(){
-    string s = "abcdabcd";
-    string t = "abc";
+    string s,t ;
+    cin >> s >> t;
     cout << match(s, t);
 
     return 0;
